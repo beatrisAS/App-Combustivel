@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCombustivel.PáginaPrincipal">
+    <StackLayout
+        Padding="20"
+        Spacing="10">
+        
+        <Entry x:Name="txt_etanol" Placeholder="Preço do Etanol" Keyboard="Numeric" />
+        <Entry x:Name="txt_gasolina" Placeholder="Preço da Gasolina" Keyboard="Numeric" />
+        <Entry x:Name="txt_marca" Placeholder="Marca do Veículo" />
+        <Entry x:Name="txt_modelo" Placeholder="Modelo do Veículo" />
+        <Button Text="Calcular" Clicked="Button_Clicked" />
+
+    </StackLayout>
+</ContentPage>
